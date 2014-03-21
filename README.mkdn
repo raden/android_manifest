@@ -1,3 +1,8 @@
 Manifest for android-4.4.2_r2
 
 repo init -u https://github.com/snak3ater/android_manifest.git -b kk
+
+
+For Flo
+
+repo init -u https://github.com/snak3ater/android_manifest.git -b flo

@@ -4,12 +4,22 @@
   <remote name="aosp"
            fetch="https://android-review.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+
+  <remote name="github"
+           fetch="git://github.com/" />
+
   <remote name="snak3ater"
            fetch="git://github.com/snak3ater/" />
-           <remote name="github"
-           fetch="git://github.com/" />
+  
+  <remote name="corwin42"
+           fetch="git://github.com/corwin42/" /> 
+  
+  <remote name="rascarlo"
+           fetch="git://github.com/rascarlo/" /> 
+  
   <remote name="CyanogenMod"
            fetch="git://github.com/CyanogenMod/" />
+  
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
            sync-j="4" />
@@ -45,8 +55,9 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/mako" name="android_device_lge_mako" groups="device,mako" remote="snak3ater" revision="kk" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
+  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
+  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
+  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -436,7 +447,8 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/lge" name="android_vendor_lge" remote="snak3ater" revision="kk" />
-  <project path="vendor/rascarlo" name="android_vendor_rascarlo" remote="snak3ater" revision="kk" />
+  <project path="vendor/asus" name="android_vendor_asus" remote="corwin42" revision="kk-rasc-mr1.2_r2" />
+  <project path="vendor/lge" name="android_vendor_lge" remote="rascarlo" revision="kk-ras-mr1.2_r2" />
+  <project path="vendor/rascarlo" name="android_vendor_rascarlo" remote="snak3ater" revision="flo" />
 
 </manifest> 
