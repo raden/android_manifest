@@ -13,9 +13,6 @@
   
   <remote name="corwin42"
            fetch="git://github.com/corwin42/" /> 
-           
-  <remote name="Mahdi-Rom"
-           fetch="git://github.com/Mahdi-Rom/" />
   
   <remote name="rascarlo"
            fetch="git://github.com/rascarlo/" /> 
@@ -355,7 +352,7 @@
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Torch" name="SlimRoms/packages_apps_Torch" remote="github" revision="kk4.4" />
-  <project path="packages/apps/CMFileManager" name="Mahdi-Rom/android_packages_apps_CMFileManager" remote="github" revision="kk-4.4" />
+  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-11.0" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
@@ -453,6 +450,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/asus" name="android_vendor_asus" remote="corwin42" revision="kk-rasc-mr1.2_r2" />
   <project path="vendor/lge" name="android_vendor_lge" remote="rascarlo" revision="kk-ras-mr1.2_r2" />
-  <project path="vendor/rascarlo" name="android_vendor_rascarlo" remote="snak3ater" revision="flo" />
+  <project path="vendor/rascarlo" name="android_vendor_rascarlo" remote="rascarlo" revision="kk-ras-mr1.2_r2" />
+  <project path="vendor/corwin42" name="android_vendor_corwin42" remote="corwin42" revision="kk-rasc-mr1.2_r2" />
 
 </manifest> 
